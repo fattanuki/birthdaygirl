@@ -1,0 +1,203 @@
+body, html{
+	margin: 0px;
+	padding: 0%;
+	height: 100%;
+	overflow-y: hidden;
+}
+body{
+	font-family: cursive;
+}
+.wrapper{
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+.wrapper ul{
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+.wrapper ul li{
+	display: inline-block;
+	padding: 40px 15px;
+}
+.wrapper ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 5px 10px;
+}
+.wrapper ul li a:hover{
+	background: #fff;
+	color: #000;
+}
+.wrapper h2{
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	margin-top: 12%;
+}
+.wrapper p{
+	text-align: center;
+	font-size: 18px;
+	width: 35%;
+	margin: auto;
+	color: #ddd;
+	line-height: 1mm;
+}
+.box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	overflow: hidden;
+}
+.sige{
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+.sige ul{
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+.sige ul li{
+	display: inline-block;
+	padding: 40px 15px;
+}
+.sige ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 5px 10px;
+}
+.sige ul li a:hover{
+	background: #fff;
+	color: #000;
+}
+.sige h2{
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	margin-top: 6%;
+}
+.sige p{
+	text-align: center;
+	font-size: 18px;
+	width: 75%;
+    height: 100%;
+	margin: auto;
+	color: #ddd;
+}
+.boxx{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	overflow: hidden;
+}
+.SAGEE{
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+.SAGEE ul{
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+.SAGEE ul li{
+	display: inline-block;
+	padding: 40px 15px;
+}
+.SAGEE ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 5px 10px;
+}
+.SAGEE ul li a:hover{
+	background: #fff;
+	color: #000;
+}
+.SAGEE h2{
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	margin-top: 8%;
+}
+.SAGEE p{
+	text-align: center;
+	font-size: 18px;
+	width: 75%;
+    height: 100%;
+	margin-bottom: 1%;
+	color: #ddd;
+}
+.boxxx{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	overflow: hidden;
+}
+.imgg {
+	display: flex;
+	position: absolute; 
+	bottom: 20%;
+	margin-left: 33%;
+}
+.imggg {
+	display: flex;
+	position: absolute; 
+	bottom: 20%;
+	margin-left: 31%;
+}
+.imagee {
+	display: flex;
+	position: absolute; 
+	bottom: 20%;
+	margin-left: 51%;
+}
+.brrt{
+	display: flex;
+	position: absolute; 
+	bottom: 10%;
+	margin-left: 31%;
+}
+.waaa{
+	display: flex;
+	position: absolute; 
+	bottom: 10%;
+	margin-left: 51%;
+}
+
+.fade-in{
+	animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+	opacity: 1;
+	}
+}
+.dance{
+	display: flex;
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+}
+.dancing{
+	display: flex;
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+}
